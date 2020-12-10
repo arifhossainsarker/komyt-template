@@ -3687,8 +3687,8 @@ p.artficial:before{
     animation: floating2 7s infinite ;
 }
 .ico-bg1{
-    /* background-image: url(../img/bg-img/header-bg1.png); */
-    background: #000;
+    background-image: url(../img/bg-img/header-bg1.png);
+    /* background: #000; */
     background-repeat: no-repeat;
     background-size: cover;
 }
