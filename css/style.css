@@ -1186,7 +1186,7 @@ ol {
     letter-spacing: 1px;
     color: #fff;
 }
-.navbar-nav .nav-item .nav-link:hover{color:#fed136;}
+.navbar-nav .nav-item .nav-link:hover{color:#50af7c;}
 .navbar-expand-md .navbar-nav .dropdown-menu{
     border-top:3px solid #50af7c;
 }
@@ -6859,10 +6859,7 @@ textarea:required {
     top: 0;
     left: 0;
     z-index: 10;
-    background: rgba(72, 52, 212, 0.95);
-    background: -webkit-linear-gradient(to right, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
-    background: -webkit-linear-gradient(left, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
-    background: linear-gradient(to right, rgba(72, 52, 212, 0.95), rgba(52, 31, 151, 0.95));
+    background: #000;
 }
 
 .breadcumb--con {
@@ -8268,7 +8265,7 @@ body.light-version {
     border: 1px solid #ddd
 }
 .light-version #scrollUp {
-    color: #000;
+    color: #50af7c;
 }
 .light-version .subscribe h2,
 .light-version .demo-video h2,
@@ -8360,7 +8357,7 @@ body.light-version {
     position: absolute;
     width: 30%;
     height: 2px;
-    background-color: #000;
+    background-color: #50af7c;
     content: "";
     top: 10px;
     right: 100%;
