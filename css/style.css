@@ -7369,7 +7369,7 @@ textarea:required {
       .pricing-tables .plans .plan .plan__head {
         transition: all .4s ease-in-out;
         background: linear-gradient(45deg, #2c79ff, rgba(44, 121, 255, 0.5));
-        background: #2c79ff;
+        background: #50af7c;
         color: #FFFFFF;
         padding: 2rem 0;
         overflow: hidden;
@@ -7422,7 +7422,9 @@ textarea:required {
           font-weight: 500; }
           .pricing-tables .plans .plan .plan__features p span {
             display: block;
-            margin-bottom: .2rem; }
+            margin-bottom: .2rem;
+            font-size: 1.25rem; 
+        }
       .pricing-tables .plans .plan .plan__btn--start {
         margin: auto;
         width: 75%; }
