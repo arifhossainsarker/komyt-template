@@ -2483,8 +2483,16 @@ p.artficial:before{
     border-bottom: 5px solid #50af7c;
 }
 
-.video-text-area p{
+.d-sec .section-heading h2{
+    color: #fff;
+}
 
+.d-sec .video-text-area h6{
+    color: #fff;
+}
+
+.d-sec .video-text-area p{
+    color: #fff;
 }
 
 .gt-start-earning-anim{
