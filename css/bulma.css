@@ -4720,7 +4720,8 @@
         background-color: #f14668;
         color: #fff;
     }
-    }/* line 110,  src/assets/sass/sass/components/navbar.sass */.navbar>.container {
+    }/* line 110,  src/assets/sass/sass/components/navbar.sass */
+    /* .navbar>.container {
         -webkit-box-align: stretch;
         -ms-flex-align: stretch;
         align-items: stretch;
@@ -4728,7 +4729,7 @@
         display: -ms-flexbox;
         display: flex;
         min-height: 3.25rem;
-        width: 100%}
+        width: 100%} */
     /* line 115,  src/assets/sass/sass/components/navbar.sass */.navbar.has-shadow {
         -webkit-box-shadow: 0 2px 0 0 #f5f5f5;
         box-shadow: 0 2px 0 0 #f5f5f5;
