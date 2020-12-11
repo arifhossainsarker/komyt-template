@@ -1222,7 +1222,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 /* mobile view */
 @media (max-width:500px)
 {
-    .navbar{ background: rgb(215, 223, 239);}
+    .navbar{ background: rgb(0, 0, 0);}
     .navbar-nav{
         border-top:1px solid #fed136;
         color:#fff;
