@@ -2462,9 +2462,29 @@ p.artficial:before{
     background-size: cover
 }
 
-.about-us-area {
+.about-us-area, .video-add-area {
     position: relative;
     z-index: 1;
+}
+
+.video-text-area{
+    margin-top: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.video-text-area h6{
+    border-bottom: 5px solid #ddd;
+    padding-bottom: 10px;
+    color: #000000;
+}
+
+.video-text-area h6.active{
+    border-bottom: 5px solid #50af7c;
+}
+
+.video-text-area p{
+
 }
 
 .gt-start-earning-anim{
@@ -9333,3 +9353,19 @@ transform: scale3d(1, 1, 1);
 }
 
 /* video slider */
+.video-slider-group ul{
+    position: relative;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+.video-slider-group ul li{
+    cursor: pointer;
+    list-style: none;
+    margin-left: 10px;
+}  
