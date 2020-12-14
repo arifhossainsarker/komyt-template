@@ -184,6 +184,9 @@
     .single-team-member:after {
         width: 50%;
     }
+    .overlay-video h4 {
+        margin-top: 10%;
+    }
    
 }
 

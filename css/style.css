@@ -3215,7 +3215,11 @@ p.artficial:before{
 }
 @media (max-width: 767px){
     .services-block-four{
-        margin-bottom: 40px
+        margin-bottom: 40px;
+        margin-top: 40px
+    }
+    .services-block-four .inner-box h3{
+        margin-left: 20%;
     }
 }
 @media (max-width: 480px){
