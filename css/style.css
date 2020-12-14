@@ -1162,6 +1162,9 @@ ol {
     max-height: 2rem;
     max-width: 3rem;
 }
+.video-review-area {
+    background: #ddd;
+}
 @media (min-width: 1024px){
 .client-logo img {
     max-width: 3.5rem;
