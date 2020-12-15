@@ -1197,6 +1197,14 @@ ol {
     margin-top: 10px;
     background: #fff;
   }
+  .service_single_content.customize {
+    background: #25212a;
+    border: 0px;
+    transition: all 0.3s;
+}
+.service_single_content.customize:hover {
+    background: linear-gradient(90deg, #5f36ff 0, #b719f6 100%);
+}
   .progressbar-content p {
     margin-left: 45px;
   }
