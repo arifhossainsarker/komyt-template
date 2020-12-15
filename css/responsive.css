@@ -55,6 +55,9 @@
     .cd-intro.default-title > h2 {
         font-size: 36px;
     }
+    .services-block-four {
+        margin-top: 40px;
+    }
 }
 
 /* Mobile Version */
