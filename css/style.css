@@ -1165,6 +1165,40 @@ ol {
 .video-review-area {
     background: #ddd;
 }
+.progressbar {
+    padding: 80px 40px;
+  }
+  .progressbar-title h6 {
+    font-size: 2.18rem;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .progressbar {
+    padding: 80px 40px;
+  }
+  .progressbar-title h6 {
+    font-size: 2.18rem;
+    color: #fff !important;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .progressbar-icon i {
+    font-size: 30px;
+    color: #fff;
+  }
+  .progressbar-section .progress {
+    height: auto;
+    background: transparent;
+  }
+  .progressbar-section .progress-bar {
+    height: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .progressbar-content p {
+    margin-left: 45px;
+  }
 @media (min-width: 1024px){
 .client-logo img {
     max-width: 3.5rem;
