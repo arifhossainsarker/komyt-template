@@ -275,7 +275,7 @@
     </section>
     <!-- ##### video slider one ##### -->
 
-    <!-- ##### video area ##### -->
+    <!-- ##### video-review-area ##### -->
     <section class="clearfix about-us-area video-review-area section-padding-70-70">
         
         <div class="container">
@@ -302,7 +302,7 @@
     </section>
     <!-- ##### video-review-area ##### -->
 
-    <!-- ##### video slider one ##### -->
+    <!-- ##### video slider two ##### -->
     <section class="clearfix video-add-area section-padding-70-70 d-sec">
         
         <div class="container">
@@ -340,9 +340,9 @@
     </section>
     <!-- ##### video slider two ##### -->
 
-    <!-- ##### team Area Start ##### -->
+    <!-- ##### progressbar Area Start ##### -->
         
-    <section class="bg-black faq-timeline-area section-padding-100-85" id="faq">
+    <section class="bg-black faq-timeline-area section-padding-70-70" id="faq">
         <div class="container">
             
             <div class="row align-items-center bg-timeling-gradient progressbar">
@@ -407,7 +407,45 @@
         </div>
     </section>
        
-    <!-- ##### team Area End ##### -->
+    <!-- ##### progressbar Area End ##### -->
+
+    <!-- ##### video slider three ##### -->
+    <section class="clearfix video-add-area section-padding-70-70">
+        
+        <div class="container">
+            <div class="text-center section-heading">
+                
+                <h2>Extra points for presentation</h2>
+                
+            </div>
+            <div class="section-padding-0-70">
+                <div class="row align-items-center video-slider-group">
+                    <video class="video-slider-three" src="img/video/video1.mp4" loop muted controls autoplay style="width: 50%; height: 40%; margin: 0 auto; display: block;"></video>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="video-text-area" onclick="videosliderThree('img/video/video1.mp4')">
+                        <h6 class="active">Frame-accurate comments</h6>
+                        <p>View feedback on a precise video frame—or across a sequence.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="video-text-area" onclick="videosliderThree('img/video/video2.mp4')">
+                        <h6>Annotations</h6>
+                        <p>Clearly illustrate your ideas with a simple drawing.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="video-text-area" onclick="videosliderThree('img/video/video3.mp4')">
+                        <h6>Approvals</h6>
+                        <p>Get comments and approvals in real time from anyone, anywhere.</p>
+                    </div>
+                </div>
+            </div>
+
+                
+        </div>
+    </section>
+    <!-- ##### video slider three ##### -->
 
     <!-- ##### About Us Area Start ##### -->
     <section class="clearfix about-us-area section-padding-70-70">
@@ -669,6 +707,9 @@
         }
         function videosliderdrak(links){
             document.querySelector(".video-slider-drak").src = links;
+        }
+        function videosliderThree(links){
+            document.querySelector(".video-slider-three").src = links;
         }
         $('.video-text-area h6').click(function() {
             var $this = $(this);
